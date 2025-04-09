@@ -1,7 +1,7 @@
 ---
 title: "myTests"
-author: "Alexandre Combeau"
-date: "2025-04-08"
+author: "Alexandre Combeau, Mohtadi Hammami, Ninette Hounkponou"
+date: "2025-04-11"
 output:
   pdf_document:
     keep_tex: true
@@ -10,7 +10,7 @@ output:
 ---
 
 ```{r, include=FALSE}
-library(knapsack2)
+library(knapsack)
 ```
 
 # Algorithme Brut Force en R
