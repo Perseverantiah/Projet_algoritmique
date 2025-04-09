@@ -28,7 +28,7 @@ sac_a_dos <- function(poids, valeurs, poids_max) {
     }
   }
   
-  return(list(combinaison = meilleure_combinaison,
+  return(list(sol_opti = meilleure_combinaison,
               poids_total = sum(poids * meilleure_combinaison),
               valeur_totale = meilleure_valeur))
 }

@@ -1,4 +1,4 @@
-Package: knapsack2
+Package: knapsack
 Type: Package
 Title: Concise Summary of What the Package Does
 Version: 1.0
@@ -6,7 +6,7 @@ Encoding: UTF-8
 Date: 2025-04-08
 Authors@R: person("Your", "Name", role = c("aut", "cre"), email =
         "your@email.com")
-Description: Quelques algorithmes pour le Knapsack problem
+Description: More about what it does (maybe more than one line).
 License: GPL (>= 2)
 Imports: Rcpp (>= 1.0.14)
 LinkingTo: Rcpp

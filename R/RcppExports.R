@@ -2,7 +2,7 @@
 # Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 rcpp_hello_world <- function() {
-    .Call(`_knapsack2_rcpp_hello_world`)
+    .Call(`_knapsack_rcpp_hello_world`)
 }
 
 #' Algorithme Brut Force using C++
@@ -13,7 +13,7 @@ rcpp_hello_world <- function() {
 #' @return La solution optimale
 #' @export
 rcpp_sac_a_dos <- function(poids, valeurs, poids_max) {
-    .Call(`_knapsack2_rcpp_sac_a_dos`, poids, valeurs, poids_max)
+    .Call(`_knapsack_rcpp_sac_a_dos`, poids, valeurs, poids_max)
 }
 
 #' Algorithme Dynamic Programmation using C++
@@ -25,7 +25,7 @@ rcpp_sac_a_dos <- function(poids, valeurs, poids_max) {
 #' @return La solution optimale
 #' @export
 rcpp_sac_a_dos_dp <- function(poids, valeurs, poids_max, precision = 1000L) {
-    .Call(`_knapsack2_rcpp_sac_a_dos_dp`, poids, valeurs, poids_max, precision)
+    .Call(`_knapsack_rcpp_sac_a_dos_dp`, poids, valeurs, poids_max, precision)
 }
 
 #' Algorithme Glouton using C++
@@ -36,6 +36,6 @@ rcpp_sac_a_dos_dp <- function(poids, valeurs, poids_max, precision = 1000L) {
 #' @return Une solution... optimale ?
 #' @export
 rcpp_sac_a_dos_glouton <- function(poids, valeurs, poids_max) {
-    .Call(`_knapsack2_rcpp_sac_a_dos_glouton`, poids, valeurs, poids_max)
+    .Call(`_knapsack_rcpp_sac_a_dos_glouton`, poids, valeurs, poids_max)
 }
 
