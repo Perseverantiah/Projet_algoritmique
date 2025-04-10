@@ -7,7 +7,7 @@ Nous étudions ici le **problème classique du sac à dos**, en proposant **troi
 
 ---
 
-## 📌 Objectifs
+##  Objectifs
 
 - Implémenter plusieurs stratégies pour résoudre le problème du sac à dos :
   - méthode **naive / brut force** (parcours exhaustif)
@@ -26,19 +26,19 @@ Pour développer et utiliser le paquet, installez les dépendances nécessaires 
 
 ** NB : Il faut que vous ayez la derniere version de Rcpp **
 
-## Pour installer le package depuis GitHub
-``` devtools::install_github("Perseverantiah/Projet_algoritmique")```
+### Pour installer le package depuis GitHub
+```{r } devtools::install_github("Perseverantiah/Projet_algoritmique")```
 
 Pour pouvoir l'utiliser :
 
-``` library(knapsack2)```
+``` {r } library(knapsack2)```
 
 
 ## [Exemples ](#-exemples)
-### Algorithme Brut Froce
+### [Algorithme Naif](#-algo) 
 
 
-## Exemple
+
 
 ```{r exemple_naif}
 set.seed(42)
@@ -61,7 +61,7 @@ $valeur_totale
 
 ```
 
-### Algo glouton
+### [Algo glouton](#glouton)
 
 
 ```{r exemple_glouton}
@@ -80,4 +80,4 @@ $poids_total
 $valeur_totale
 [1] 306440
 ```
-### Algo dynamique
+### [Algo dynamique](#dyn)
