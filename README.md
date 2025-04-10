@@ -3,14 +3,14 @@ Auteur : Ninette Hounkponou, Alexandre Colombeau, Mohtadi HAMMAMI
 
 Ce projet a été réalisé dans le cadre du cours d’algorithmique de M2DS.
 
-Nous étudions ici le **problème classique du sac à dos **, en proposant **trois approches algorithmiques différentes**, implémentées à la fois en **C++** et en **R** dans le but de comparer leur **efficacité computationnelle selon le langage** utilisé.
+Nous étudions ici le **problème classique du sac à dos**, en proposant **trois approches algorithmiques différentes**, implémentées à la fois en **C++** et en **R** dans le but de comparer leur **efficacité computationnelle selon le langage** utilisé.
 
 ---
 
 ## 📌 Objectifs
 
 - Implémenter plusieurs stratégies pour résoudre le problème du sac à dos :
-  - méthode **naive** (parcours exhaustif)
+  - méthode **naive / brut force** (parcours exhaustif)
   - méthode **gloutonne** (heuristique)
   - méthode par **programmation dynamique** (optimisation)
 - Comparer les **temps d'exécution** selon la **taille des données** et le **langage** utilisé (C++ vs R)
@@ -35,7 +35,7 @@ Pour pouvoir l'utiliser :
 
 
 ## [Exemples ](#-exemples)
-### Algo naive
+### Algorithme Brut Froce
 
 
 ## Exemple
