@@ -10,7 +10,7 @@ Nous étudions ici le **problème classique du sac à dos **, en proposant **tro
 ## 📌 Objectifs
 
 - Implémenter plusieurs stratégies pour résoudre le problème du sac à dos :
-  - méthode **naïve** (parcours exhaustif)
+  - méthode **brute force** (parcours exhaustif)
   - méthode **gloutonne** (heuristique)
   - méthode par **programmation dynamique** (optimisation)
 - Comparer les **temps d'exécution** selon la **taille des données** et le **langage** utilisé (C++ vs R)
@@ -35,7 +35,19 @@ library(knapsack2)
 
 
 ## [Exemples ](#-exemples)
-### Algo naive
+### Algo brute force
+
+
+## Exemple
+
+```{r exemple_naif}
+set.seed(42)
+n = 10
+poids <- sample(10,n)
+valeur <- sample(30,n)
+poids_max <- 20
+sac_a_dos(poids, valeur, poids_max)
+```
 
 ### Algo glouton
 
