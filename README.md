@@ -61,6 +61,9 @@ $valeur_totale
 
 ```
 
+<img width="598" alt="bt" src="https://github.com/user-attachments/assets/103565ee-2e24-4b75-8d9b-c4c48d399043" />
+
+
 ### [Algo glouton](#glouton)
 
 
@@ -80,4 +83,7 @@ $poids_total
 $valeur_totale
 [1] 306440
 ```
+<img width="672" alt="Screenshot 2025-04-10 223410" src="https://github.com/user-attachments/assets/65f583bb-7e13-4c8c-9ee4-e03c6c43d2b1" />
+
+
 ### [Algo dynamique](#dyn)
