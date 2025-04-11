@@ -31,7 +31,7 @@ Pour développer et utiliser le paquet, installez les dépendances nécessaires 
 
 Pour pouvoir l'utiliser :
 
-```library(knapsack2)```
+```library(knapsack)```
 
 
 ## [Exemples ](#-exemples)
