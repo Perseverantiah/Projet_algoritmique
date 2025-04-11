@@ -28,6 +28,7 @@ Pour développer et utiliser le paquet, installez les dépendances nécessaires 
 
 ### Pour installer le package depuis GitHub, exécutez l'une des deux commandes ci-dessous
 ```devtools::install_github("Perseverantiah/Projet_algoritmique")```
+
 ```devtools::install_github("alexandre-combeau/knapsack")```
 
 Pour pouvoir l'utiliser :
