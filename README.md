@@ -22,16 +22,16 @@ Nous étudions ici le **problème classique du sac à dos**, en proposant **troi
 Conditions préalables au développement du paquet
 Pour développer et utiliser le paquet, installez les dépendances nécessaires :
 
-``` install.packages(c("Rcpp", "RcppArmadillo", "devtools", "roxygen2", "testthat"))```
+```install.packages(c("Rcpp", "RcppArmadillo", "devtools", "roxygen2", "testthat"))```
 
 ** NB : Il faut que vous ayez la derniere version de Rcpp **
 
 ### Pour installer le package depuis GitHub
-```{r } devtools::install_github("Perseverantiah/Projet_algoritmique")```
+```devtools::install_github("Perseverantiah/Projet_algoritmique")```
 
 Pour pouvoir l'utiliser :
 
-``` {r } library(knapsack2)```
+```library(knapsack2)```
 
 
 ## [Exemples ](#-exemples)
