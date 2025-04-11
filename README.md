@@ -26,8 +26,9 @@ Pour développer et utiliser le paquet, installez les dépendances nécessaires 
 
 **NB : Il faut que vous ayez la derniere version de Rcpp**
 
-### Pour installer le package depuis GitHub
+### Pour installer le package depuis GitHub, exécutez l'une des deux commandes ci-dessous
 ```devtools::install_github("Perseverantiah/Projet_algoritmique")```
+```devtools::install_github("alexandre-combeau/knapsack")```
 
 Pour pouvoir l'utiliser :
 
