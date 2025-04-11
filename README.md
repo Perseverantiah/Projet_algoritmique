@@ -89,3 +89,14 @@ $valeur_totale
 
 
 ### [Algo dynamique](#dyn)
+
+```{r}
+set.seed(42)
+n = 100000
+poids <- sample(n)
+valeur <- sample(n)
+poids_max <- 20
+sac_a_dos_dp(poids, valeur, poids_max)
+
+```
+<img width="593" alt="Screenshot 2025-04-11 073227" src="https://github.com/user-attachments/assets/c7eec800-3290-466b-aeeb-d4f0f028cee3" />
