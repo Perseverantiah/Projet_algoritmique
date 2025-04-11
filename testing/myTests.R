@@ -1,5 +1,6 @@
 ##### Quelques tests #####
 
+devtools::install_github("Perseverantiah/Projet_algoritmique")
 library(knapsack)
 
 ## Algorithme Brut Force
@@ -28,3 +29,4 @@ valeurs <- runif(n)
 poids_max <- 5000
 sac_a_dos_dp(poids, valeurs, poids_max)
 rcpp_sac_a_dos_dp(poids, valeurs, poids_max)
+
