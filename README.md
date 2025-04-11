@@ -24,7 +24,7 @@ Pour développer et utiliser le paquet, installez les dépendances nécessaires 
 
 ```install.packages(c("Rcpp", "RcppArmadillo", "devtools", "roxygen2", "testthat"))```
 
-** NB : Il faut que vous ayez la derniere version de Rcpp **
+**NB : Il faut que vous ayez la derniere version de Rcpp**
 
 ### Pour installer le package depuis GitHub
 ```devtools::install_github("Perseverantiah/Projet_algoritmique")```
