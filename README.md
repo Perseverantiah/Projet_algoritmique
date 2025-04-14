@@ -24,7 +24,7 @@ Pour développer et utiliser le paquet, installez les dépendances nécessaires 
 
 ```install.packages(c("Rcpp", "RcppArmadillo", "devtools", "roxygen2", "testthat"))```
 
-**NB : Il faut que vous ayez la derniere version de Rcpp**
+**NB : Il faut que vous ayez la dernière version de Rcpp**
 
 ### Pour installer le package depuis GitHub, exécutez l'une des deux commandes ci-dessous
 ```devtools::install_github("Perseverantiah/Projet_algoritmique")```
@@ -37,10 +37,7 @@ Pour pouvoir l'utiliser :
 
 
 ## [Exemples ](#-exemples)
-### [Algorithme Naif](#-algo) 
-
-
-
+### [Algorithme Naif](#-algo)
 
 ```{r exemple_naif}
 set.seed(42)
@@ -66,7 +63,7 @@ $valeur_totale
 <img width="598" alt="bt" src="https://github.com/user-attachments/assets/103565ee-2e24-4b75-8d9b-c4c48d399043" />
 
 
-### [Algo glouton](#glouton)
+### [Algorithme glouton](#glouton)
 
 
 ```{r exemple_glouton}
@@ -88,7 +85,7 @@ $valeur_totale
 <img width="672" alt="Screenshot 2025-04-10 223410" src="https://github.com/user-attachments/assets/65f583bb-7e13-4c8c-9ee4-e03c6c43d2b1" />
 
 
-### [Algo dynamique](#dyn)
+### [Programmation Dynamique](#dyn)
 
 ```{r}
 set.seed(42)
